@@ -15,7 +15,7 @@ const Navbar = () => {
     ]
 
     return (
-        <div className='w-full px-3 text-center'>
+        <div className='w-full text-center md:px-[250px] px-3'>
             <div className='md:h-[84px] flex items-center justify-between'>
 
                 {/* logo  */}
@@ -31,7 +31,7 @@ const Navbar = () => {
                 </div>
 
                 {/* navbar link  */}
-                <ul className={`md:md:ml-[660px] gap-5 text-[16px] md:flex font-normal duration-500 absolute md:static bg-slate-700 md:bg-white text-white md:text-gray-800 pb-4 md:p-0 rounded w-full md:items-center  ${open ? 'top-5' : 'top-[-490px]'}`}>
+                <ul className={`md:md:ml-[360px] gap-5 text-[16px] md:flex font-normal duration-500 absolute md:static bg-slate-700 md:bg-white text-white md:text-gray-800 pb-4 md:p-0 rounded w-full md:items-center  ${open ? 'top-5' : 'top-[-490px]'}`}>
                     {
                         navLink.map((link) => (
                             <li key={link.name} className='text-xl md:ml-8 md:my-0 my-7'>
