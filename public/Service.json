@@ -2,31 +2,37 @@
     {
         "id": 1,
         "name": "John Doe",
-        "details": "John is a software engineer with 5 years of experience."
+        "details": "John is a software engineer with 5 years of experience.",
+        "img" : "https://i.ibb.co/YB4KCtq/service1.png"
     },
     {
         "id": 2,
         "name": "Jane Smith",
-        "details": "Jane is a graphic designer passionate about minimalist design."
+        "details": "Jane is a graphic designer passionate about minimalist design.",
+        "img" : "https://i.ibb.co/xj8vt7T/service2.png"
     },
     {
         "id": 3,
         "name": "Bob Johnson",
-        "details": "Bob is a marketing specialist specializing in digital campaigns."
+        "details": "Bob is a marketing specialist specializing in digital campaigns.",
+        "img" : "https://i.ibb.co/WxmWCWF/service3.png"
     },
     {
         "id": 4,
         "name": "Product A",
-        "details": "Product A is a versatile tool suitable for various tasks."
+        "details": "Product A is a versatile tool suitable for various tasks.",
+        "img" : "https://i.ibb.co/BscKM02/service7.png"
     },
     {
         "id": 5,
         "name": "Product B",
-        "details": "Product B offers advanced features for professional use."
+        "details": "Product B offers advanced features for professional use.",
+        "img" : "https://i.ibb.co/CwJ1RW3/service5.png"
     },
     {
         "id": 6,
         "name": "Product C",
-        "details": "Product C is a budget-friendly option for everyday use."
+        "details": "Product C is a budget-friendly option for everyday use.",
+        "img" : "https://i.ibb.co/qnmxR1K/service6.png"
     }
 ]
