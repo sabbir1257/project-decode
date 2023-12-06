@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import ServiceSingleCard from './ServiceSingleCard';
 
 const Service = () => {
-    const [carts , setCart] = useState([])
+    const [carts, setCarts] = useState([]);
     useEffect(() => {
-        fetch("../../../public/Service.json")
-        .then(data => data.json())
-        .then(res => setCart(res))
-    } , [])
+        fetch("/Service.json")
+            .then(res => res.json())
+            .then(data => setCarts(data))
+    }, [])
     return (
         <div className='text-center pt-28 pb-7 bg-[#E9FBF8] '>
             <h1 className='mb-6 text-5xl font-black'>Our Services</h1>
@@ -15,7 +15,7 @@ const Service = () => {
             <p className='mb-12'>tempor invidunt ut labore et.</p>
             <div>
                 {
-                   carts.map((card) => <ServiceSingleCard key={card.id} card={card}/>) 
+                    carts.map((singleCard , i) => <ServiceSingleCard key={i} singleCard={singleCard} />)
                 }
             </div>
         </div>
