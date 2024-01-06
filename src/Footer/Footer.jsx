@@ -9,7 +9,7 @@ const Footer = () => {
             <div className='grid items-center pb-12 border-b-2 md:grid-cols-7'>
                 <div className='md:col-span-3'>
                     <h1 className='mb-10 text-3xl font-black'>Logo</h1>
-                    <p>Far far away, behind the word mountains, far from <br /> the countries Vokalia and Consonantia ..</p>
+                    <p>Far far away, behind the word mountains, far from <br /> the countries Vokalia and Consonantia </p>
                 </div>
                 <div>
                     <h1 className='text-[19px] font-bold mb-7'>Work</h1>
