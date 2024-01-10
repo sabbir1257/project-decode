@@ -19,7 +19,7 @@ import { Link } from 'react-router-dom';
 const OurGreatWork = () => {
     return (
         <main className='relative'>
-            <div className='mt-16 md:px-[250px]'>
+            <div className='md:my-16 my-4 md:px-[250px]'>
                 <div className='text-center'>
                     <p className='text-[#7BC0E3] pt-4 font-bold'>Portfolio</p>
                     <h1 className='text-6xl font-black my-7'>Our Great Work</h1>
@@ -187,12 +187,11 @@ const OurGreatWork = () => {
                         </Swiper>
                     </TabPanel>
                 </Tabs>
-                <div className='relative z-10 text-center pb-11 top-5 drop-shadow-2xl '>
+                <div className='relative z-10 text-center pb-11 top-5 drop-shadow-2xl'>
                     <button><Link to="/" className='bg-[#292525] text-white text-2xl px-8 py-2 rounded-full text-center '>See All</Link></button>
                 </div>
             </div>
             <div className='w-full h-[40%] bg-[#60E1CB] absolute top-[55%]'>
-
             </div>
         </main>
     );
