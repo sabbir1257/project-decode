@@ -3,6 +3,7 @@ import img from '../../assets/your-idea-img.png'
 const YourIdeaIntoReality = () => {
     return (
         <main className=' md:pl-[250px] p-4'>
+            {/* Your idea into reality header code section */}
             <section>
                 <div>
                     <h1 className='mb-4 text-5xl font-bold'>Your idea into <span className='text-[#60E1CB]'>reality</span></h1>
